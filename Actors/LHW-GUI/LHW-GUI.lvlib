@@ -34,5 +34,9 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Messages" Type="Folder">
+		<Item Name="Launch Nested Actors Msg.lvclass" Type="LVClass" URL="../../LHW-GUI-Actor Messages/Launch Nested Actors Msg/Launch Nested Actors Msg.lvclass"/>
+		<Item Name="Stop Nested Actors Msg.lvclass" Type="LVClass" URL="../../LHW-GUI-Actor Messages/Stop Nested Actors Msg/Stop Nested Actors Msg.lvclass"/>
+	</Item>
 	<Item Name="LHW-GUI-Actor.lvclass" Type="LVClass" URL="../LHW-GUI-Actor.lvclass"/>
 </Library>

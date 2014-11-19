@@ -25,15 +25,19 @@ Subject is the Hello Wolrd of LabVIEW: "Acquire Data, Analyze, Store, Visualize"
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
+			<Item Name="LHW-Acquisition.lvlib" Type="Library" URL="../Actors/LHW-Acquisition/LHW-Acquisition.lvlib"/>
+			<Item Name="LHW-Analysis.lvlib" Type="Library" URL="../Actors/LHW-Storage/LHW-Analysis.lvlib"/>
 			<Item Name="LHW-GUI.lvlib" Type="Library" URL="../Actors/LHW-GUI/LHW-GUI.lvlib"/>
+			<Item Name="LHW-Storage.lvlib" Type="Library" URL="../Actors/LHW-Storage/LHW-Storage.lvlib"/>
 		</Item>
 		<Item Name="Classes" Type="Folder"/>
 		<Item Name="Documentation" Type="Folder"/>
-		<Item Name="Libraries" Type="Folder"/>
+		<Item Name="Libraries" Type="Folder">
+			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+		</Item>
 		<Item Name="HelloWorld-AF.lvlib" Type="Library" URL="../Libraries/HelloWorld-AF/HelloWorld-AF.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
