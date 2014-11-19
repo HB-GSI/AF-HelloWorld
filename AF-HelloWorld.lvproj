@@ -6,6 +6,7 @@
 Subject is the Hello Wolrd of LabVIEW: "Acquire Data, Analyze, Store, Visualize".
 
 </Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -25,12 +26,21 @@ Subject is the Hello Wolrd of LabVIEW: "Acquire Data, Analyze, Store, Visualize"
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
+			<Item Name="Acquisition" Type="Folder">
+				<Item Name="LHW-DataGenerator.lvlib" Type="Library" URL="../Actors/LHW-DataGenerator/LHW-GenerateData/LHW-DataGenerator.lvlib"/>
+			</Item>
+			<Item Name="Analysis" Type="Folder"/>
+			<Item Name="Storage" Type="Folder">
+				<Item Name="LHW-TDMS-Storage.lvlib" Type="Library" URL="../Actors/LHW-TDMS-Storage/LHW-TDMS-Storage.lvlib"/>
+			</Item>
 			<Item Name="LHW-Acquisition.lvlib" Type="Library" URL="../Actors/LHW-Acquisition/LHW-Acquisition.lvlib"/>
 			<Item Name="LHW-Analysis.lvlib" Type="Library" URL="../Actors/LHW-Storage/LHW-Analysis.lvlib"/>
 			<Item Name="LHW-GUI.lvlib" Type="Library" URL="../Actors/LHW-GUI/LHW-GUI.lvlib"/>
 			<Item Name="LHW-Storage.lvlib" Type="Library" URL="../Actors/LHW-Storage/LHW-Storage.lvlib"/>
 		</Item>
-		<Item Name="Classes" Type="Folder"/>
+		<Item Name="Classes" Type="Folder">
+			<Item Name="LHW-Data.lvlib" Type="Library" URL="../Classes/LHW-Data/LHW-Data.lvlib"/>
+		</Item>
 		<Item Name="Documentation" Type="Folder"/>
 		<Item Name="Libraries" Type="Folder">
 			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -60,6 +70,8 @@ Subject is the Hello Wolrd of LabVIEW: "Acquire Data, Analyze, Store, Visualize"
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -68,10 +80,14 @@ Subject is the Hello Wolrd of LabVIEW: "Acquire Data, Analyze, Store, Visualize"
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
