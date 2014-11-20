@@ -35,5 +35,6 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="LHW-Data.lvclass" Type="LVClass" URL="../LHW-Data/LHW-Data.lvclass"/>
+	<Item Name="LHW-DataCollection.lvclass" Type="LVClass" URL="../LHW-DataCollection/LHW-DataCollection.lvclass"/>
 	<Item Name="LHW-WfmData.lvclass" Type="LVClass" URL="../LHW-WfmData/LHW-WfmData.lvclass"/>
 </Library>
