@@ -49,6 +49,7 @@
 		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Acquire Data Core.vi" Type="VI" URL="../Acquire Data Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'J!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%B!=!!?!!!L$ER)6SV%982B,GRW&lt;'FC'ER)6SV%982B1W^M&lt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!"*-3&amp;=N2'&amp;U95.P&lt;'RF9X2J&lt;WY!!&amp;B!=!!?!!!U&amp;5R)6SV"9X&amp;V;8.J&gt;'FP&lt;CZM&gt;GRJ9BR-3&amp;=N18&amp;V;8.J&gt;'FP&lt;CV"9X2P=CZM&gt;G.M98.T!!!94%B8,5&amp;R&gt;7FT;82J&lt;WYN17.U&lt;X)A&lt;X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!6E"Q!"Y!!$164%B8,5&amp;D=86J=WFU;7^O,GRW&lt;'FC(%R)6SV"=86J=WFU;7^O,5&amp;D&gt;'^S,GRW9WRB=X-!!"&gt;-3&amp;=N18&amp;V;8.J&gt;'FP&lt;CV"9X2P=C"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -57,7 +58,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Stop Core.vi" Type="VI" URL="../Stop Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!"1!%!!!!7%"Q!"Y!!$164%B8,5&amp;D=86J=WFU;7^O,GRW&lt;'FC(%R)6SV"=86J=WFU;7^O,5&amp;D&gt;'^S,GRW9WRB=X-!!"B-3&amp;=N18&amp;V;8.J&gt;'FP&lt;CV"9X2P=C"P&gt;81!!"&gt;!!Q!1:GFO97QA:8*S&lt;X)A9W^E:1!!6E"Q!"Y!!$164%B8,5&amp;D=86J=WFU;7^O,GRW&lt;'FC(%R)6SV"=86J=WFU;7^O,5&amp;D&gt;'^S,GRW9WRB=X-!!"&gt;-3&amp;=N18&amp;V;8.J&gt;'FP&lt;CV"9X2P=C"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!)!!Q-!!(A!!!!!!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!EA!!!!!"!!1!!!!!</Property>
@@ -67,7 +67,6 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 </LVClass>

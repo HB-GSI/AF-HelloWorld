@@ -9,7 +9,7 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2014\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
-	<Property Name="NI.Lib.Description" Type="Str">This library contains the Data Analysis Actor for the LabVIEW's Hello World based on NI's Actor Framework.</Property>
+	<Property Name="NI.Lib.Description" Type="Str">This library contains the ancestor class for the Data Analysis Actor for the LabVIEW's Hello World based on NI's Actor Framework.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!*Q(C=\&gt;7^&lt;2N"%)&lt;BDY9$J]Q5'A25Q=4/'!FQY/";G";9+G3C!C;F-X:!MY6*(&lt;)&amp;NL"_&gt;TEG2"AS"5C#(7B03RW``8OUNTB*IXS30KJ&gt;+\O`FG?U^R[N`^4.R:D,^P:E?WPH^F0@[PBY`/[0PK@WVC\&lt;&gt;_?:WH0],WS`5P2?XMO`,@&gt;8$_G&lt;H^G:_IO)GN3A/N85FWJ*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O4D)B?ZS%5/+6E]73C:.*EA[1R&amp;S5@C34S**`(Q69EH]33?R*.Y[+,%EXA34_**0!R4YEE]C3@R*"[G'J)=&amp;TG?R-0U#DS"*`!%HM$$EAI]!3"9,*AYG!3'AM&lt;A*P!%HM$$L1*0Y!E]A3@QU+T!%XA#4_!*0!Q:OR*$US^S0%QDR_.Y()`D=4R-,=@D?"S0YX%],#@(YXA=B,/A-TE%/9/=$MY8R_.Y_#8(YXA=D_.R0$3.*_2D:\KG8_2Y$)`B-4S'R`!QB1S0Y4%]BM@Q-+U-D_%R0)&lt;(],#5$)`B-4Q'R&amp;C5Z76-:AQU/BG"Y?&amp;HH"9&lt;4SG'R-9FV?&amp;6(5L696-&gt;)N8B5$VUV=.50346ZKMW6&lt;6:KEV1`8%KN!KD7E1VO(@5E=]$&gt;5`&gt;5N@5&amp;87C,KE,[LQ0@?7/R_.2B]."_`V?W_V7[`6;K^6+UT2JO6RKM6BI0J_@8Q/@O=YPB..\[:\\8D@@&lt;G;&lt;[7&lt;W`?@NQ_&lt;OS`4D\P&lt;L\\:?X_B`[8`Q&lt;N1(0:[80@I&amp;+7Q3MA!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>

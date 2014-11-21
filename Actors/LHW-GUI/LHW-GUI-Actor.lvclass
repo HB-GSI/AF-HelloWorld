@@ -77,7 +77,6 @@
 		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="Actor Core.vi" Type="VI" URL="../Actor Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$B!=!!?!!!F&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9AV"9X2P=CZM&gt;G.M98.T!!F"9X2P=C"P&gt;81!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!%"!=!!?!!!F$5R)6SV(65EO&lt;(:M;7)64%B8,5&gt;633V"9X2P=CZM&gt;G.M98.T!""-3&amp;=N2V6*,5&amp;D&gt;'^S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -86,6 +85,7 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Handle Last Ack Core.vi" Type="VI" URL="../Handle Last Ack Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%"!=!!?!!!F$5R)6SV(65EO&lt;(:M;7)64%B8,5&gt;633V"9X2P=CZM&gt;G.M98.T!"&amp;-3&amp;=N2V6*,5&amp;D&gt;'^S)'^V&gt;!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!0%"Q!"Y!!#A617.U&lt;X)A2H*B&lt;76X&lt;X*L,GRW&lt;'FC%%RB=X1A17.L,GRW9WRB=X-!!!B-98.U)%&amp;D;Q!!1%"Q!"Y!!#5.4%B8,5&gt;633ZM&gt;GRJ9B6-3&amp;=N2V6*,5&amp;D&gt;'^S,GRW9WRB=X-!%%R)6SV(65EN17.U&lt;X)A;7Y!!$Q!]!!)!!-!"!!%!!5!"A!%!!=!#!-!!'!!!!U%!!!!!!!!!!!!!)U(!!!+!!!!!!!!!"!!!!#3!!!!!!%!#1!!!!!</Property>
@@ -95,6 +95,7 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="Stop Core.vi" Type="VI" URL="../Stop Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!"1!%!!!!1%"Q!"Y!!#5.4%B8,5&gt;633ZM&gt;GRJ9B6-3&amp;=N2V6*,5&amp;D&gt;'^S,GRW9WRB=X-!%5R)6SV(65EN17.U&lt;X)A&lt;X6U!"&gt;!!Q!1:GFO97QA:8*S&lt;X)A9W^E:1!!1%"Q!"Y!!#5.4%B8,5&gt;633ZM&gt;GRJ9B6-3&amp;=N2V6*,5&amp;D&gt;'^S,GRW9WRB=X-!%%R)6SV(65EN17.U&lt;X)A;7Y!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!Q!!?!!!!!!!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!#3!!!!!!%!"!!!!!!</Property>
@@ -104,7 +105,18 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+	</Item>
+	<Item Name="Handle Error.vi" Type="VI" URL="../Handle Error.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!)1NT&gt;'^Q)'&amp;D&gt;'^S0Q"!1(!!(A!!*1V-3&amp;=N2V6*,GRW&lt;'FC&amp;5R)6SV(65EN17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!24%B8,5&gt;633V"9X2P=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"!1(!!(A!!*1V-3&amp;=N2V6*,GRW&lt;'FC&amp;5R)6SV(65EN17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!14%B8,5&gt;633V"9X2P=C"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
 	<Item Name="LHW-GUI-Actor.rtm" Type="Document" URL="../LHW-GUI-Actor.rtm"/>
 </LVClass>
