@@ -36,7 +36,19 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		</Item>
+	</Item>
+	<Item Name="protected" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="Analyze Core.vi" Type="VI" URL="../Analyze Core.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(V!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%R!=!!?!!!L$ER)6SV%982B,GRW&lt;'FC'ER)6SV%982B1W^M&lt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!":-3&amp;=N2'&amp;U95.P&lt;'RF9X2J&lt;WYA&lt;X6U!!"11(!!(A!!,R*-3&amp;=N17ZB&lt;(FT;8-O&lt;(:M;7);4%B8,5&amp;O97RZ=WFT,5&amp;D&gt;'^S,GRW9WRB=X-!&amp;ER)6SV"&lt;G&amp;M?8.J=SV"9X2P=C"P&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!"+1(!!(A!!+QZ-3&amp;=N2'&amp;U93ZM&gt;GRJ9BJ-3&amp;=N2'&amp;U95.P&lt;'RF9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!64%B8,52B&gt;'&amp;$&lt;WRM:7.U;7^O)'FO!%Z!=!!?!!!P%ER)6SV"&lt;G&amp;M?8.J=SZM&gt;GRJ9BJ-3&amp;=N17ZB&lt;(FT;8-N17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!64%B8,5&amp;O97RZ=WFT,5&amp;D&gt;'^S)'FO!')!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!.#A!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!I!!!!1!!!/!!!,!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107825152</Property>
 		</Item>
 	</Item>
 </LVClass>
